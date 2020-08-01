@@ -23,7 +23,7 @@
 <pop3servers>
   <pop3server enabled="true">
     <jmxName>pop3server</jmxName>
-    <bind>0.0.0.0:110</bind>
+    <bind>0.0.0.0:1130</bind>
     <connectionBacklog>200</connectionBacklog>
     <tls socketTLS="false" startTLS="false">
       <keystore>file://conf/keystore</keystore>
